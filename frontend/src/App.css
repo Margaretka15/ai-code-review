@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=App.css.map */

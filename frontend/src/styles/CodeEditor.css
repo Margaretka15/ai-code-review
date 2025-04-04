@@ -1,0 +1,30 @@
+.code-editor {
+  width: 300px;
+  height: 100%;
+  flex: 1;
+}
+.code-editor button {
+  float: right;
+  padding: 20px 45px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  background-color: #384c83;
+  border: none;
+  border-radius: 35px;
+  outline: none;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+.code-editor button:hover {
+  background-color: #051e3d;
+}
+.code-editor button:focus {
+  outline: 3px solid rgba(0, 123, 255, 0.5);
+}
+.code-editor button:disabled {
+  cursor: not-allowed;
+  background-color: #393d4d;
+  transform: none;
+}
+
+/*# sourceMappingURL=CodeEditor.css.map */
